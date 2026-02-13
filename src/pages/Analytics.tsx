@@ -1,12 +1,14 @@
 import { motion } from 'framer-motion';
 import { websites } from '../data/mockData';
 import { PieChart, Pie, Cell, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Legend } from 'recharts';
+import { useNavigate } from 'react-router-dom';
 import { getNearestColorFamily } from '../utils/colorUtils';
 import { useState, useEffect } from 'react';
 
 export default function Analytics() {
     // 0. Current Date for "Last Updated"
     const currentDate = new Date().toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric' });
+    const navigate = useNavigate();
 
     // Responsive check for charts
     const [isMobile, setIsMobile] = useState(false);
@@ -81,6 +83,7 @@ export default function Analytics() {
 
     // 4. Top Liked Sites
     const topLikedSites = [...websites]
+        .filter(site => site.topColors && site.topColors.length > 0)
         .sort((a, b) => b.likes - a.likes)
         .slice(0, 5);
 
@@ -251,7 +254,11 @@ export default function Analytics() {
 
                     <div className="space-y-4">
                         {topLikedSites.map((site, index) => (
-                            <div key={site.id} className="flex items-center justify-between p-4 rounded-xl bg-[#1a1a1a] hover:bg-[#222] transition-colors group">
+                            <div
+                                key={site.id}
+                                onClick={() => navigate(`/showcase?site=${site.id}`)}
+                                className="flex items-center justify-between p-4 rounded-xl bg-[#1a1a1a] hover:bg-[#222] transition-colors group cursor-pointer"
+                            >
                                 <div className="flex items-center gap-4">
                                     <span className="text-[#444] font-mono text-sm w-4">#{index + 1}</span>
                                     <div className="max-w-[120px] sm:max-w-none">

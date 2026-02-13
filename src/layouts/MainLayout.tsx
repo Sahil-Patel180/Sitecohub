@@ -47,7 +47,7 @@ export default function MainLayout() {
             </main>
 
             <footer className="border-t border-[#222] py-12 text-center text-[#444] text-sm mt-auto">
-                <p>Designed for Designers. Inspired by artisanal craftsmanship.</p>
+                <p>Forged for the creative mind.</p>
                 <p className="mt-2 font-serif opacity-50">&copy; {new Date().getFullYear()} SiteCoHub</p>
             </footer>
         </div>

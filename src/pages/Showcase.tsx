@@ -1,5 +1,6 @@
 import { useState, useMemo, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
+import { useSearchParams } from 'react-router-dom';
 import { websites } from '../data/mockData';
 import type { WebsiteData } from '../data/mockData';
 import SiteCard from '../components/SiteCard';
@@ -18,6 +19,18 @@ export default function Showcase() {
     const [showLikedOnly, setShowLikedOnly] = useState(false);
     const [likedSiteIds, setLikedSiteIds] = useState<string[]>([]);
     const [visibleCount, setVisibleCount] = useState(24);
+    const [searchParams, setSearchParams] = useSearchParams();
+
+    // Handle URL query for direct site access
+    useEffect(() => {
+        const siteId = searchParams.get('site');
+        if (siteId) {
+            const site = websites.find(s => s.id === siteId);
+            if (site) {
+                setSelectedSite(site);
+            }
+        }
+    }, [searchParams]);
 
     // Debounce search update
     useEffect(() => {
@@ -346,7 +359,12 @@ export default function Showcase() {
                 {selectedSite && (
                     <DetailView
                         site={selectedSite}
-                        onClose={() => setSelectedSite(null)}
+                        onClose={() => {
+                            setSelectedSite(null);
+                            const newParams = new URLSearchParams(searchParams);
+                            newParams.delete('site');
+                            setSearchParams(newParams);
+                        }}
                     />
                 )}
             </AnimatePresence>
