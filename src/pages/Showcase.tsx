@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect, useRef } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useSearchParams } from 'react-router-dom';
 import { websites } from '../data/mockData';
@@ -51,17 +51,36 @@ export default function Showcase() {
 
 
     // Auto-expand filters on large screens and load likes
+    // Fix: Use ref to track width changes and ignore height changes (address bar toggle)
+    const prevWidth = useRef(window.innerWidth);
+
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth >= 1024) {
-                setShowFilters(true);
-            } else {
-                setShowFilters(false);
+            const currentWidth = window.innerWidth;
+
+            // Only react if we cross the breakpoint (Mobile <-> Desktop)
+            // This prevents resetting the user's manual toggle if width changes slightly
+            // (e.g. scrollbar appears/disappears) or if height changes (mobile address bar)
+            const wasDesktop = prevWidth.current >= 1024;
+            const isDesktop = currentWidth >= 1024;
+
+            if (wasDesktop !== isDesktop) {
+                if (isDesktop) {
+                    setShowFilters(true);
+                } else {
+                    setShowFilters(false);
+                }
             }
+            prevWidth.current = currentWidth;
         };
 
-        // Initial check
-        handleResize();
+        // Initial check - we must run this once to set initial state correctly
+        // We can't rely on the ref verification here because it's the first run
+        if (window.innerWidth >= 1024) {
+            setShowFilters(true);
+        } else {
+            setShowFilters(false);
+        }
 
         // Load likes
         const loadLikes = () => {

@@ -10,8 +10,8 @@ export default function MainLayout() {
             <header className="fixed top-0 left-0 right-0 z-30 bg-[#0a0a0a]/80 backdrop-blur-md border-b border-[#222]">
                 <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
                     <Link to="/" className="flex items-center gap-3 group">
-                        <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-white/10 to-transparent border border-white/5 flex items-center justify-center group-hover:bg-white/10 transition-colors">
-                            <Palette size={20} className="text-white" />
+                        <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-white/10 to-transparent border border-white/5 flex items-center justify-center group-hover:bg-white/10 transition-colors overflow-hidden">
+                            <img src="/Sitecohub.png" alt="SiteCoHub" className="w-full h-full object-cover" />
                         </div>
                         <h1 className="text-xl font-serif tracking-tight">SiteCoHub</h1>
                     </Link>
@@ -47,7 +47,7 @@ export default function MainLayout() {
             </main>
 
             <footer className="border-t border-[#222] py-12 text-center text-[#444] text-sm mt-auto">
-                <p>Forged for the creative mind.</p>
+                <p>Designed for Designers. Inspired by artisanal craftsmanship.</p>
                 <p className="mt-2 font-serif opacity-50">&copy; {new Date().getFullYear()} SiteCoHub</p>
             </footer>
         </div>
