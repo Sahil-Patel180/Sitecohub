@@ -8,7 +8,10 @@ export interface Color {
 export interface WebsiteVersion {
   version: string;
   date: string;
-  colors: Color[];
+  colors: Color[]; // Kept for backward compatibility, same as topColors
+  topColors: Color[];
+  textColors: Color[];
+  allColors: Color[];
 }
 
 export interface WebsiteData {

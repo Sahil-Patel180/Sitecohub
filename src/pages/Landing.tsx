@@ -22,7 +22,7 @@ export default function Landing() {
                     className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-medium text-[#ccc] mb-8"
                 >
                     <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
-                    v2.0 Now Available with Analytics
+                    v3.{__COMMIT_COUNT__}.0 Now Available with Version History
                 </motion.div>
 
                 <motion.h1
