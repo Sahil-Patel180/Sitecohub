@@ -1,73 +1,51 @@
-# React + TypeScript + Vite
+# SiteCoHub: The Art of Digital Color
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Decode the aesthetic DNA of the world's most successful websites. SiteCoHub is a platform that allows you to analyze usage percentages, track historical changes, and spot emerging trends in website color palettes from top companies.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Deep Analysis**: Break down brand palettes into precise usage percentages and roles (Apperance, Text Colors, Backgrounds).
+- **Live Tracking**: Monitor cosmetic updates and keep track of the version history of website designs. Includes a built-in script to automatically check and update site palettes.
+- **Trend Insights**: Visualize dominant colors and aesthetic shifts across the industry using interactive charts.
+- **Interactive Showcase**: Explore a curated list of top companies' UI colors and design choices with slick animations.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React 19, TypeScript, Vite
+- **Styling**: Tailwind CSS v4, Framer Motion (Animations)
+- **Routing**: React Router DOM v7
+- **Icons & Visualization**: Lucide React, Recharts
+- **Data Scraping**: Puppeteer, Cheerio (for updating color palettes automatically)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Prerequisites
+- Node.js (v18 or higher recommended)
+- npm or yarn
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Installation
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+1. Clone the repository and navigate to the project directory:
+   ```bash
+   cd sitecohub
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+4. Open your browser and visit: `http://localhost:5173`
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Scripts
+
+- `npm run dev`: Starts the Vite development server.
+- `npm run build`: Compiles TypeScript and builds the app for production.
+- `npm run preview`: Locally previews the production build.
+- `npm run lint`: Runs ESLint to check for code issues.
+- `npm run update-palettes`: Executes the backend scraping script (`scripts/update_palettes.js`) utilizing Puppeteer and Cheerio to refresh the site palette data.
