@@ -39536,29 +39536,41 @@ export const realSites: WebsiteData[] = [
     "likes": 71,
     "topColors": [
       {
-        "hex": "#000000",
+        "hex": "#0B2D71",
         "name": "Custom",
-        "percentage": 75,
+        "percentage": 33,
         "usage": "Primary"
       },
       {
-        "hex": "#737373",
+        "hex": "#0066B2",
         "name": "Custom",
-        "percentage": 25,
+        "percentage": 33,
+        "usage": "Primary"
+      },
+      {
+        "hex": "#B2CC34",
+        "name": "Custom",
+        "percentage": 33,
         "usage": "Primary"
       }
     ],
     "allColors": [
       {
-        "hex": "#000000",
+        "hex": "#0B2D71",
         "name": "Custom",
-        "percentage": 75,
+        "percentage": 33,
         "usage": "General"
       },
       {
-        "hex": "#737373",
+        "hex": "#0066B2",
         "name": "Custom",
-        "percentage": 25,
+        "percentage": 33,
+        "usage": "General"
+      },
+      {
+        "hex": "#B2CC34",
+        "name": "Custom",
+        "percentage": 33,
         "usage": "General"
       }
     ],
@@ -39582,8 +39594,55 @@ export const realSites: WebsiteData[] = [
         "usage": "Trending"
       }
     ],
-    "lastUpdated": "2026-06-07T05:01:26.590Z",
+    "lastUpdated": "2026-06-08T05:09:09.652Z",
     "versions": [
+      {
+        "version": "v3.0",
+        "date": "2026-06-07T05:01:26.590Z",
+        "colors": [
+          {
+            "hex": "#000000",
+            "name": "Custom",
+            "percentage": 75,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#737373",
+            "name": "Custom",
+            "percentage": 25,
+            "usage": "Primary"
+          }
+        ],
+        "topColors": [
+          {
+            "hex": "#000000",
+            "name": "Custom",
+            "percentage": 75,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#737373",
+            "name": "Custom",
+            "percentage": 25,
+            "usage": "Primary"
+          }
+        ],
+        "textColors": [],
+        "allColors": [
+          {
+            "hex": "#000000",
+            "name": "Custom",
+            "percentage": 75,
+            "usage": "General"
+          },
+          {
+            "hex": "#737373",
+            "name": "Custom",
+            "percentage": 25,
+            "usage": "General"
+          }
+        ]
+      },
       {
         "version": "v2.0",
         "date": "2026-02-16T15:16:47.558Z",
