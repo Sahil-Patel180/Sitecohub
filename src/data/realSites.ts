@@ -29516,37 +29516,13 @@ export const realSites: WebsiteData[] = [
       {
         "hex": "#FFF",
         "name": "Custom",
-        "percentage": 78,
+        "percentage": 89,
         "usage": "Primary"
       },
       {
         "hex": "#000",
         "name": "Custom",
-        "percentage": 10,
-        "usage": "Primary"
-      },
-      {
-        "hex": "#FFFFFF",
-        "name": "Custom",
-        "percentage": 6,
-        "usage": "Primary"
-      },
-      {
-        "hex": "#7A00E6",
-        "name": "Custom",
-        "percentage": 2,
-        "usage": "Primary"
-      },
-      {
-        "hex": "#5718B0",
-        "name": "Custom",
-        "percentage": 1,
-        "usage": "Primary"
-      },
-      {
-        "hex": "#B3A8E6",
-        "name": "Custom",
-        "percentage": 1,
+        "percentage": 11,
         "usage": "Primary"
       }
     ],
@@ -29554,55 +29530,157 @@ export const realSites: WebsiteData[] = [
       {
         "hex": "#FFF",
         "name": "Custom",
-        "percentage": 78,
+        "percentage": 89,
         "usage": "General"
       },
       {
         "hex": "#000",
         "name": "Custom",
-        "percentage": 10,
-        "usage": "General"
-      },
-      {
-        "hex": "#FFFFFF",
-        "name": "Custom",
-        "percentage": 6,
-        "usage": "General"
-      },
-      {
-        "hex": "#7A00E6",
-        "name": "Custom",
-        "percentage": 2,
-        "usage": "General"
-      },
-      {
-        "hex": "#5718B0",
-        "name": "Custom",
-        "percentage": 1,
-        "usage": "General"
-      },
-      {
-        "hex": "#B3A8E6",
-        "name": "Custom",
-        "percentage": 1,
-        "usage": "General"
-      },
-      {
-        "hex": "#3C217B",
-        "name": "Custom",
-        "percentage": 1,
-        "usage": "General"
-      },
-      {
-        "hex": "#AEAEAE",
-        "name": "Custom",
-        "percentage": 1,
+        "percentage": 11,
         "usage": "General"
       }
     ],
     "trendingColors": [],
-    "lastUpdated": "2026-06-09T04:30:25.048Z",
+    "lastUpdated": "2026-06-10T04:40:40.988Z",
     "versions": [
+      {
+        "version": "v4.0",
+        "date": "2026-06-09T04:30:25.048Z",
+        "colors": [
+          {
+            "hex": "#FFF",
+            "name": "Custom",
+            "percentage": 78,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#000",
+            "name": "Custom",
+            "percentage": 10,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#FFFFFF",
+            "name": "Custom",
+            "percentage": 6,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#7A00E6",
+            "name": "Custom",
+            "percentage": 2,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#5718B0",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#B3A8E6",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "Primary"
+          }
+        ],
+        "topColors": [
+          {
+            "hex": "#FFF",
+            "name": "Custom",
+            "percentage": 78,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#000",
+            "name": "Custom",
+            "percentage": 10,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#FFFFFF",
+            "name": "Custom",
+            "percentage": 6,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#7A00E6",
+            "name": "Custom",
+            "percentage": 2,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#5718B0",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#B3A8E6",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "Primary"
+          }
+        ],
+        "textColors": [
+          {
+            "hex": "#FFF",
+            "name": "Custom",
+            "percentage": 3,
+            "usage": "Text"
+          }
+        ],
+        "allColors": [
+          {
+            "hex": "#FFF",
+            "name": "Custom",
+            "percentage": 78,
+            "usage": "General"
+          },
+          {
+            "hex": "#000",
+            "name": "Custom",
+            "percentage": 10,
+            "usage": "General"
+          },
+          {
+            "hex": "#FFFFFF",
+            "name": "Custom",
+            "percentage": 6,
+            "usage": "General"
+          },
+          {
+            "hex": "#7A00E6",
+            "name": "Custom",
+            "percentage": 2,
+            "usage": "General"
+          },
+          {
+            "hex": "#5718B0",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "General"
+          },
+          {
+            "hex": "#B3A8E6",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "General"
+          },
+          {
+            "hex": "#3C217B",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "General"
+          },
+          {
+            "hex": "#AEAEAE",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "General"
+          }
+        ]
+      },
       {
         "version": "v4.0",
         "date": "2026-06-05T04:41:50.392Z",
@@ -29794,67 +29872,13 @@ export const realSites: WebsiteData[] = [
             "usage": "General"
           }
         ]
-      },
-      {
-        "version": "v4.0",
-        "date": "2026-05-27T04:41:49.348Z",
-        "colors": [
-          {
-            "hex": "#FFF",
-            "name": "Custom",
-            "percentage": 89,
-            "usage": "Primary"
-          },
-          {
-            "hex": "#000",
-            "name": "Custom",
-            "percentage": 11,
-            "usage": "Primary"
-          }
-        ],
-        "topColors": [
-          {
-            "hex": "#FFF",
-            "name": "Custom",
-            "percentage": 89,
-            "usage": "Primary"
-          },
-          {
-            "hex": "#000",
-            "name": "Custom",
-            "percentage": 11,
-            "usage": "Primary"
-          }
-        ],
-        "textColors": [
-          {
-            "hex": "#FFF",
-            "name": "Custom",
-            "percentage": 4,
-            "usage": "Text"
-          }
-        ],
-        "allColors": [
-          {
-            "hex": "#FFF",
-            "name": "Custom",
-            "percentage": 89,
-            "usage": "General"
-          },
-          {
-            "hex": "#000",
-            "name": "Custom",
-            "percentage": 11,
-            "usage": "General"
-          }
-        ]
       }
     ],
     "textColors": [
       {
         "hex": "#FFF",
         "name": "Custom",
-        "percentage": 3,
+        "percentage": 4,
         "usage": "Text"
       }
     ],
@@ -39446,29 +39470,41 @@ export const realSites: WebsiteData[] = [
     "likes": 71,
     "topColors": [
       {
-        "hex": "#000000",
+        "hex": "#0B2D71",
         "name": "Custom",
-        "percentage": 75,
+        "percentage": 33,
         "usage": "Primary"
       },
       {
-        "hex": "#737373",
+        "hex": "#0066B2",
         "name": "Custom",
-        "percentage": 25,
+        "percentage": 33,
+        "usage": "Primary"
+      },
+      {
+        "hex": "#B2CC34",
+        "name": "Custom",
+        "percentage": 33,
         "usage": "Primary"
       }
     ],
     "allColors": [
       {
-        "hex": "#000000",
+        "hex": "#0B2D71",
         "name": "Custom",
-        "percentage": 75,
+        "percentage": 33,
         "usage": "General"
       },
       {
-        "hex": "#737373",
+        "hex": "#0066B2",
         "name": "Custom",
-        "percentage": 25,
+        "percentage": 33,
+        "usage": "General"
+      },
+      {
+        "hex": "#B2CC34",
+        "name": "Custom",
+        "percentage": 33,
         "usage": "General"
       }
     ],
@@ -39492,8 +39528,55 @@ export const realSites: WebsiteData[] = [
         "usage": "Trending"
       }
     ],
-    "lastUpdated": "2026-06-09T04:30:25.053Z",
+    "lastUpdated": "2026-06-10T04:40:40.995Z",
     "versions": [
+      {
+        "version": "v4.0",
+        "date": "2026-06-09T04:30:25.053Z",
+        "colors": [
+          {
+            "hex": "#000000",
+            "name": "Custom",
+            "percentage": 75,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#737373",
+            "name": "Custom",
+            "percentage": 25,
+            "usage": "Primary"
+          }
+        ],
+        "topColors": [
+          {
+            "hex": "#000000",
+            "name": "Custom",
+            "percentage": 75,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#737373",
+            "name": "Custom",
+            "percentage": 25,
+            "usage": "Primary"
+          }
+        ],
+        "textColors": [],
+        "allColors": [
+          {
+            "hex": "#000000",
+            "name": "Custom",
+            "percentage": 75,
+            "usage": "General"
+          },
+          {
+            "hex": "#737373",
+            "name": "Custom",
+            "percentage": 25,
+            "usage": "General"
+          }
+        ]
+      },
       {
         "version": "v4.0",
         "date": "2026-06-08T05:09:09.652Z",
@@ -39602,71 +39685,6 @@ export const realSites: WebsiteData[] = [
             "hex": "#737373",
             "name": "Custom",
             "percentage": 25,
-            "usage": "General"
-          }
-        ]
-      },
-      {
-        "version": "v2.0",
-        "date": "2026-02-16T15:16:47.558Z",
-        "colors": [
-          {
-            "hex": "#0B2D71",
-            "name": "Custom",
-            "percentage": 33,
-            "usage": "Primary"
-          },
-          {
-            "hex": "#0066B2",
-            "name": "Custom",
-            "percentage": 33,
-            "usage": "Primary"
-          },
-          {
-            "hex": "#B2CC34",
-            "name": "Custom",
-            "percentage": 33,
-            "usage": "Primary"
-          }
-        ],
-        "topColors": [
-          {
-            "hex": "#0B2D71",
-            "name": "Custom",
-            "percentage": 33,
-            "usage": "Primary"
-          },
-          {
-            "hex": "#0066B2",
-            "name": "Custom",
-            "percentage": 33,
-            "usage": "Primary"
-          },
-          {
-            "hex": "#B2CC34",
-            "name": "Custom",
-            "percentage": 33,
-            "usage": "Primary"
-          }
-        ],
-        "textColors": [],
-        "allColors": [
-          {
-            "hex": "#0B2D71",
-            "name": "Custom",
-            "percentage": 33,
-            "usage": "General"
-          },
-          {
-            "hex": "#0066B2",
-            "name": "Custom",
-            "percentage": 33,
-            "usage": "General"
-          },
-          {
-            "hex": "#B2CC34",
-            "name": "Custom",
-            "percentage": 33,
             "usage": "General"
           }
         ]
@@ -49318,13 +49336,7 @@ export const realSites: WebsiteData[] = [
       {
         "hex": "#D92231",
         "name": "Custom",
-        "percentage": 83,
-        "usage": "Primary"
-      },
-      {
-        "hex": "#231F20",
-        "name": "Custom",
-        "percentage": 17,
+        "percentage": 100,
         "usage": "Primary"
       }
     ],
@@ -49332,19 +49344,60 @@ export const realSites: WebsiteData[] = [
       {
         "hex": "#D92231",
         "name": "Custom",
-        "percentage": 83,
-        "usage": "General"
-      },
-      {
-        "hex": "#231F20",
-        "name": "Custom",
-        "percentage": 17,
+        "percentage": 100,
         "usage": "General"
       }
     ],
     "trendingColors": [],
-    "lastUpdated": "2026-02-16T15:16:47.631Z",
+    "lastUpdated": "2026-06-10T04:40:41.003Z",
     "versions": [
+      {
+        "version": "v2.0",
+        "date": "2026-02-16T15:16:47.631Z",
+        "colors": [
+          {
+            "hex": "#D92231",
+            "name": "Custom",
+            "percentage": 83,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#231F20",
+            "name": "Custom",
+            "percentage": 17,
+            "usage": "Primary"
+          }
+        ],
+        "topColors": [
+          {
+            "hex": "#D92231",
+            "name": "Custom",
+            "percentage": 83,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#231F20",
+            "name": "Custom",
+            "percentage": 17,
+            "usage": "Primary"
+          }
+        ],
+        "textColors": [],
+        "allColors": [
+          {
+            "hex": "#D92231",
+            "name": "Custom",
+            "percentage": 83,
+            "usage": "General"
+          },
+          {
+            "hex": "#231F20",
+            "name": "Custom",
+            "percentage": 17,
+            "usage": "General"
+          }
+        ]
+      },
       {
         "version": "v1.0",
         "date": "2026-02-02T18:45:09.248Z",
@@ -60331,19 +60384,7 @@ export const realSites: WebsiteData[] = [
       {
         "hex": "#010035",
         "name": "Custom",
-        "percentage": 63,
-        "usage": "Primary"
-      },
-      {
-        "hex": "#FFFFFF",
-        "name": "Custom",
-        "percentage": 30,
-        "usage": "Primary"
-      },
-      {
-        "hex": "#391325",
-        "name": "Custom",
-        "percentage": 7,
+        "percentage": 100,
         "usage": "Primary"
       }
     ],
@@ -60351,25 +60392,97 @@ export const realSites: WebsiteData[] = [
       {
         "hex": "#010035",
         "name": "Custom",
-        "percentage": 63,
-        "usage": "General"
-      },
-      {
-        "hex": "#FFFFFF",
-        "name": "Custom",
-        "percentage": 30,
-        "usage": "General"
-      },
-      {
-        "hex": "#391325",
-        "name": "Custom",
-        "percentage": 7,
+        "percentage": 100,
         "usage": "General"
       }
     ],
     "trendingColors": [],
-    "lastUpdated": "2026-06-02T05:02:16.801Z",
+    "lastUpdated": "2026-06-10T04:40:41.013Z",
     "versions": [
+      {
+        "version": "v4.0",
+        "date": "2026-06-02T05:02:16.801Z",
+        "colors": [
+          {
+            "hex": "#010035",
+            "name": "Custom",
+            "percentage": 63,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#FFFFFF",
+            "name": "Custom",
+            "percentage": 30,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#391325",
+            "name": "Custom",
+            "percentage": 7,
+            "usage": "Primary"
+          }
+        ],
+        "topColors": [
+          {
+            "hex": "#010035",
+            "name": "Custom",
+            "percentage": 63,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#FFFFFF",
+            "name": "Custom",
+            "percentage": 30,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#391325",
+            "name": "Custom",
+            "percentage": 7,
+            "usage": "Primary"
+          }
+        ],
+        "textColors": [
+          {
+            "hex": "#010035",
+            "name": "Custom",
+            "percentage": 63,
+            "usage": "Text"
+          },
+          {
+            "hex": "#FFFFFF",
+            "name": "Custom",
+            "percentage": 30,
+            "usage": "Text"
+          },
+          {
+            "hex": "#391325",
+            "name": "Custom",
+            "percentage": 7,
+            "usage": "Text"
+          }
+        ],
+        "allColors": [
+          {
+            "hex": "#010035",
+            "name": "Custom",
+            "percentage": 63,
+            "usage": "General"
+          },
+          {
+            "hex": "#FFFFFF",
+            "name": "Custom",
+            "percentage": 30,
+            "usage": "General"
+          },
+          {
+            "hex": "#391325",
+            "name": "Custom",
+            "percentage": 7,
+            "usage": "General"
+          }
+        ]
+      },
       {
         "version": "v4.0",
         "date": "2026-05-01T04:19:26.699Z",
@@ -60513,109 +60626,13 @@ export const realSites: WebsiteData[] = [
             "usage": "General"
           }
         ]
-      },
-      {
-        "version": "v4.0",
-        "date": "2026-03-07T02:51:17.196Z",
-        "colors": [
-          {
-            "hex": "#010035",
-            "name": "Custom",
-            "percentage": 74,
-            "usage": "Primary"
-          },
-          {
-            "hex": "#FFFFFF",
-            "name": "Custom",
-            "percentage": 17,
-            "usage": "Primary"
-          },
-          {
-            "hex": "#391325",
-            "name": "Custom",
-            "percentage": 9,
-            "usage": "Primary"
-          }
-        ],
-        "topColors": [
-          {
-            "hex": "#010035",
-            "name": "Custom",
-            "percentage": 74,
-            "usage": "Primary"
-          },
-          {
-            "hex": "#FFFFFF",
-            "name": "Custom",
-            "percentage": 17,
-            "usage": "Primary"
-          },
-          {
-            "hex": "#391325",
-            "name": "Custom",
-            "percentage": 9,
-            "usage": "Primary"
-          }
-        ],
-        "textColors": [
-          {
-            "hex": "#010035",
-            "name": "Custom",
-            "percentage": 74,
-            "usage": "Text"
-          },
-          {
-            "hex": "#FFFFFF",
-            "name": "Custom",
-            "percentage": 17,
-            "usage": "Text"
-          },
-          {
-            "hex": "#391325",
-            "name": "Custom",
-            "percentage": 9,
-            "usage": "Text"
-          }
-        ],
-        "allColors": [
-          {
-            "hex": "#010035",
-            "name": "Custom",
-            "percentage": 74,
-            "usage": "General"
-          },
-          {
-            "hex": "#FFFFFF",
-            "name": "Custom",
-            "percentage": 17,
-            "usage": "General"
-          },
-          {
-            "hex": "#391325",
-            "name": "Custom",
-            "percentage": 9,
-            "usage": "General"
-          }
-        ]
       }
     ],
     "textColors": [
       {
         "hex": "#010035",
         "name": "Custom",
-        "percentage": 63,
-        "usage": "Text"
-      },
-      {
-        "hex": "#FFFFFF",
-        "name": "Custom",
-        "percentage": 30,
-        "usage": "Text"
-      },
-      {
-        "hex": "#391325",
-        "name": "Custom",
-        "percentage": 7,
+        "percentage": 100,
         "usage": "Text"
       }
     ],
@@ -72948,31 +72965,19 @@ export const realSites: WebsiteData[] = [
       {
         "hex": "#FFF",
         "name": "Custom",
-        "percentage": 21,
-        "usage": "Primary"
-      },
-      {
-        "hex": "#222",
-        "name": "Custom",
-        "percentage": 12,
+        "percentage": 35,
         "usage": "Primary"
       },
       {
         "hex": "#004C4C",
         "name": "Custom",
-        "percentage": 8,
+        "percentage": 18,
         "usage": "Primary"
       },
       {
-        "hex": "#DEDEDE",
+        "hex": "#000",
         "name": "Custom",
-        "percentage": 6,
-        "usage": "Primary"
-      },
-      {
-        "hex": "#00716B",
-        "name": "Custom",
-        "percentage": 6,
+        "percentage": 12,
         "usage": "Primary"
       },
       {
@@ -72980,37 +72985,37 @@ export const realSites: WebsiteData[] = [
         "name": "Custom",
         "percentage": 5,
         "usage": "Primary"
+      },
+      {
+        "hex": "#E9E9E9",
+        "name": "Custom",
+        "percentage": 5,
+        "usage": "Primary"
+      },
+      {
+        "hex": "#222",
+        "name": "Custom",
+        "percentage": 4,
+        "usage": "Primary"
       }
     ],
     "allColors": [
       {
         "hex": "#FFF",
         "name": "Custom",
-        "percentage": 21,
-        "usage": "General"
-      },
-      {
-        "hex": "#222",
-        "name": "Custom",
-        "percentage": 12,
+        "percentage": 35,
         "usage": "General"
       },
       {
         "hex": "#004C4C",
         "name": "Custom",
-        "percentage": 8,
+        "percentage": 18,
         "usage": "General"
       },
       {
-        "hex": "#DEDEDE",
+        "hex": "#000",
         "name": "Custom",
-        "percentage": 6,
-        "usage": "General"
-      },
-      {
-        "hex": "#00716B",
-        "name": "Custom",
-        "percentage": 6,
+        "percentage": 12,
         "usage": "General"
       },
       {
@@ -73026,81 +73031,39 @@ export const realSites: WebsiteData[] = [
         "usage": "General"
       },
       {
-        "hex": "#003737",
+        "hex": "#222",
         "name": "Custom",
         "percentage": 4,
         "usage": "General"
       },
       {
-        "hex": "#002929",
+        "hex": "#E2DFF0",
         "name": "Custom",
-        "percentage": 3,
+        "percentage": 4,
         "usage": "General"
       },
       {
-        "hex": "#00857A",
+        "hex": "#D7D3EA",
         "name": "Custom",
-        "percentage": 3,
+        "percentage": 4,
         "usage": "General"
       },
       {
-        "hex": "#666",
+        "hex": "#003737",
         "name": "Custom",
         "percentage": 2,
         "usage": "General"
       },
       {
-        "hex": "#959595",
+        "hex": "#C21700",
         "name": "Custom",
         "percentage": 2,
         "usage": "General"
       },
       {
-        "hex": "#616161",
+        "hex": "#DEDEDE",
         "name": "Custom",
         "percentage": 2,
-        "usage": "General"
-      },
-      {
-        "hex": "#EDF7F7",
-        "name": "Custom",
-        "percentage": 1,
-        "usage": "General"
-      },
-      {
-        "hex": "#C0D1D0",
-        "name": "Custom",
-        "percentage": 1,
-        "usage": "General"
-      },
-      {
-        "hex": "#FFD200",
-        "name": "Custom",
-        "percentage": 1,
-        "usage": "General"
-      },
-      {
-        "hex": "#005E5D",
-        "name": "Custom",
-        "percentage": 1,
-        "usage": "General"
-      },
-      {
-        "hex": "#000",
-        "name": "Custom",
-        "percentage": 1,
-        "usage": "General"
-      },
-      {
-        "hex": "#F3C000",
-        "name": "Custom",
-        "percentage": 1,
-        "usage": "General"
-      },
-      {
-        "hex": "#9CA3AF",
-        "name": "Custom",
-        "percentage": 1,
         "usage": "General"
       },
       {
@@ -73110,237 +73073,500 @@ export const realSites: WebsiteData[] = [
         "usage": "General"
       },
       {
-        "hex": "#F9F9F9",
+        "hex": "#EFF4F4",
         "name": "Custom",
         "percentage": 1,
-        "usage": "General"
-      },
-      {
-        "hex": "#F2F7F7",
-        "name": "Custom",
-        "percentage": 1,
-        "usage": "General"
-      },
-      {
-        "hex": "#E9F0F0",
-        "name": "Custom",
-        "percentage": 1,
-        "usage": "General"
-      },
-      {
-        "hex": "#222222",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#A1A1A1",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#828282",
-        "name": "Custom",
-        "percentage": 0,
         "usage": "General"
       },
       {
         "hex": "#1E1E1E",
         "name": "Custom",
-        "percentage": 0,
+        "percentage": 1,
         "usage": "General"
       },
       {
-        "hex": "#E5B400",
+        "hex": "#00857A",
         "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#FFE263",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#ADE0DF",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#86D1CD",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#3C5E5E",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#D8F0EF",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#5AB8F2",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#005CDE",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#E3F0F7",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#1B2C36",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#75B12B",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#E4F5EB",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#007F42",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#232E23",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#383838",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#292929",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#121212",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#DF9186",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#E0796B",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#E45F4E",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#FAE8E6",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#C21700",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#B51500",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#A81400",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#341D1D",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#61B8AB",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#4FB0A1",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#489F92",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#D9AA00",
-        "name": "Custom",
-        "percentage": 0,
-        "usage": "General"
-      },
-      {
-        "hex": "#CCC",
-        "name": "Custom",
-        "percentage": 0,
+        "percentage": 1,
         "usage": "General"
       },
       {
         "hex": "#991B1B",
         "name": "Custom",
-        "percentage": 0,
+        "percentage": 1,
+        "usage": "General"
+      },
+      {
+        "hex": "#A1A1A1",
+        "name": "Custom",
+        "percentage": 1,
+        "usage": "General"
+      },
+      {
+        "hex": "#828282",
+        "name": "Custom",
+        "percentage": 1,
+        "usage": "General"
+      },
+      {
+        "hex": "#616161",
+        "name": "Custom",
+        "percentage": 1,
+        "usage": "General"
+      },
+      {
+        "hex": "#666",
+        "name": "Custom",
+        "percentage": 1,
+        "usage": "General"
+      },
+      {
+        "hex": "#002929",
+        "name": "Custom",
+        "percentage": 1,
         "usage": "General"
       }
     ],
     "trendingColors": [],
-    "lastUpdated": "2026-05-29T04:36:30.746Z",
+    "lastUpdated": "2026-06-10T04:40:41.036Z",
     "versions": [
+      {
+        "version": "v4.0",
+        "date": "2026-05-29T04:36:30.746Z",
+        "colors": [
+          {
+            "hex": "#FFF",
+            "name": "Custom",
+            "percentage": 21,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#222",
+            "name": "Custom",
+            "percentage": 12,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#004C4C",
+            "name": "Custom",
+            "percentage": 8,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#DEDEDE",
+            "name": "Custom",
+            "percentage": 6,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#00716B",
+            "name": "Custom",
+            "percentage": 6,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#7D7D7D",
+            "name": "Custom",
+            "percentage": 5,
+            "usage": "Primary"
+          }
+        ],
+        "topColors": [
+          {
+            "hex": "#FFF",
+            "name": "Custom",
+            "percentage": 21,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#222",
+            "name": "Custom",
+            "percentage": 12,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#004C4C",
+            "name": "Custom",
+            "percentage": 8,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#DEDEDE",
+            "name": "Custom",
+            "percentage": 6,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#00716B",
+            "name": "Custom",
+            "percentage": 6,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#7D7D7D",
+            "name": "Custom",
+            "percentage": 5,
+            "usage": "Primary"
+          }
+        ],
+        "textColors": [],
+        "allColors": [
+          {
+            "hex": "#FFF",
+            "name": "Custom",
+            "percentage": 21,
+            "usage": "General"
+          },
+          {
+            "hex": "#222",
+            "name": "Custom",
+            "percentage": 12,
+            "usage": "General"
+          },
+          {
+            "hex": "#004C4C",
+            "name": "Custom",
+            "percentage": 8,
+            "usage": "General"
+          },
+          {
+            "hex": "#DEDEDE",
+            "name": "Custom",
+            "percentage": 6,
+            "usage": "General"
+          },
+          {
+            "hex": "#00716B",
+            "name": "Custom",
+            "percentage": 6,
+            "usage": "General"
+          },
+          {
+            "hex": "#7D7D7D",
+            "name": "Custom",
+            "percentage": 5,
+            "usage": "General"
+          },
+          {
+            "hex": "#E9E9E9",
+            "name": "Custom",
+            "percentage": 5,
+            "usage": "General"
+          },
+          {
+            "hex": "#003737",
+            "name": "Custom",
+            "percentage": 4,
+            "usage": "General"
+          },
+          {
+            "hex": "#002929",
+            "name": "Custom",
+            "percentage": 3,
+            "usage": "General"
+          },
+          {
+            "hex": "#00857A",
+            "name": "Custom",
+            "percentage": 3,
+            "usage": "General"
+          },
+          {
+            "hex": "#666",
+            "name": "Custom",
+            "percentage": 2,
+            "usage": "General"
+          },
+          {
+            "hex": "#959595",
+            "name": "Custom",
+            "percentage": 2,
+            "usage": "General"
+          },
+          {
+            "hex": "#616161",
+            "name": "Custom",
+            "percentage": 2,
+            "usage": "General"
+          },
+          {
+            "hex": "#EDF7F7",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "General"
+          },
+          {
+            "hex": "#C0D1D0",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "General"
+          },
+          {
+            "hex": "#FFD200",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "General"
+          },
+          {
+            "hex": "#005E5D",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "General"
+          },
+          {
+            "hex": "#000",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "General"
+          },
+          {
+            "hex": "#F3C000",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "General"
+          },
+          {
+            "hex": "#9CA3AF",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "General"
+          },
+          {
+            "hex": "#F3F3F3",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "General"
+          },
+          {
+            "hex": "#F9F9F9",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "General"
+          },
+          {
+            "hex": "#F2F7F7",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "General"
+          },
+          {
+            "hex": "#E9F0F0",
+            "name": "Custom",
+            "percentage": 1,
+            "usage": "General"
+          },
+          {
+            "hex": "#222222",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#A1A1A1",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#828282",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#1E1E1E",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#E5B400",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#FFE263",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#ADE0DF",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#86D1CD",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#3C5E5E",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#D8F0EF",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#5AB8F2",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#005CDE",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#E3F0F7",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#1B2C36",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#75B12B",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#E4F5EB",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#007F42",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#232E23",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#383838",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#292929",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#121212",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#DF9186",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#E0796B",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#E45F4E",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#FAE8E6",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#C21700",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#B51500",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#A81400",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#341D1D",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#61B8AB",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#4FB0A1",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#489F92",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#D9AA00",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#CCC",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          },
+          {
+            "hex": "#991B1B",
+            "name": "Custom",
+            "percentage": 0,
+            "usage": "General"
+          }
+        ]
+      },
       {
         "version": "v3.0",
         "date": "2026-05-27T04:41:49.394Z",
@@ -74238,11 +74464,6 @@ export const realSites: WebsiteData[] = [
             "usage": "General"
           }
         ]
-      },
-      {
-        "version": "v1.0",
-        "date": "2026-02-02T18:45:09.249Z",
-        "colors": []
       }
     ],
     "textColors": [],
@@ -105365,23 +105586,64 @@ export const realSites: WebsiteData[] = [
     "likes": 251,
     "topColors": [
       {
+        "hex": "#F6F6F6",
+        "name": "Custom",
+        "percentage": 50,
+        "usage": "Primary"
+      },
+      {
         "hex": "#143359",
         "name": "Custom",
-        "percentage": 100,
+        "percentage": 50,
         "usage": "Primary"
       }
     ],
     "allColors": [
       {
+        "hex": "#F6F6F6",
+        "name": "Custom",
+        "percentage": 50,
+        "usage": "General"
+      },
+      {
         "hex": "#143359",
         "name": "Custom",
-        "percentage": 100,
+        "percentage": 50,
         "usage": "General"
       }
     ],
     "trendingColors": [],
-    "lastUpdated": "2026-04-16T03:53:53.809Z",
+    "lastUpdated": "2026-06-10T04:40:41.084Z",
     "versions": [
+      {
+        "version": "v3.0",
+        "date": "2026-04-16T03:53:53.809Z",
+        "colors": [
+          {
+            "hex": "#143359",
+            "name": "Custom",
+            "percentage": 100,
+            "usage": "Primary"
+          }
+        ],
+        "topColors": [
+          {
+            "hex": "#143359",
+            "name": "Custom",
+            "percentage": 100,
+            "usage": "Primary"
+          }
+        ],
+        "textColors": [],
+        "allColors": [
+          {
+            "hex": "#143359",
+            "name": "Custom",
+            "percentage": 100,
+            "usage": "General"
+          }
+        ]
+      },
       {
         "version": "v2.0",
         "date": "2026-02-16T15:16:48.036Z",
