@@ -31950,23 +31950,83 @@ export const realSites: WebsiteData[] = [
     "likes": 294,
     "topColors": [
       {
-        "hex": "#FFFFFF",
+        "hex": "#EEE",
         "name": "Custom",
-        "percentage": 100,
+        "percentage": 33,
+        "usage": "Primary"
+      },
+      {
+        "hex": "#000",
+        "name": "Custom",
+        "percentage": 33,
+        "usage": "Primary"
+      },
+      {
+        "hex": "#CCC",
+        "name": "Custom",
+        "percentage": 33,
         "usage": "Primary"
       }
     ],
     "allColors": [
       {
-        "hex": "#FFFFFF",
+        "hex": "#EEE",
         "name": "Custom",
-        "percentage": 100,
+        "percentage": 33,
+        "usage": "General"
+      },
+      {
+        "hex": "#000",
+        "name": "Custom",
+        "percentage": 33,
+        "usage": "General"
+      },
+      {
+        "hex": "#CCC",
+        "name": "Custom",
+        "percentage": 33,
         "usage": "General"
       }
     ],
     "trendingColors": [],
-    "lastUpdated": "2026-06-23T04:28:21.579Z",
+    "lastUpdated": "2026-06-27T04:22:28.413Z",
     "versions": [
+      {
+        "version": "v4.0",
+        "date": "2026-06-23T04:28:21.579Z",
+        "colors": [
+          {
+            "hex": "#FFFFFF",
+            "name": "Custom",
+            "percentage": 100,
+            "usage": "Primary"
+          }
+        ],
+        "topColors": [
+          {
+            "hex": "#FFFFFF",
+            "name": "Custom",
+            "percentage": 100,
+            "usage": "Primary"
+          }
+        ],
+        "textColors": [
+          {
+            "hex": "#FFFFFF",
+            "name": "Custom",
+            "percentage": 100,
+            "usage": "Text"
+          }
+        ],
+        "allColors": [
+          {
+            "hex": "#FFFFFF",
+            "name": "Custom",
+            "percentage": 100,
+            "usage": "General"
+          }
+        ]
+      },
       {
         "version": "v4.0",
         "date": "2026-06-05T04:41:50.394Z",
@@ -32078,45 +32138,9 @@ export const realSites: WebsiteData[] = [
             "usage": "General"
           }
         ]
-      },
-      {
-        "version": "v3.0",
-        "date": "2026-04-17T03:46:26.187Z",
-        "colors": [
-          {
-            "hex": "#CCC",
-            "name": "Custom",
-            "percentage": 100,
-            "usage": "Primary"
-          }
-        ],
-        "topColors": [
-          {
-            "hex": "#CCC",
-            "name": "Custom",
-            "percentage": 100,
-            "usage": "Primary"
-          }
-        ],
-        "textColors": [],
-        "allColors": [
-          {
-            "hex": "#CCC",
-            "name": "Custom",
-            "percentage": 100,
-            "usage": "General"
-          }
-        ]
       }
     ],
-    "textColors": [
-      {
-        "hex": "#FFFFFF",
-        "name": "Custom",
-        "percentage": 100,
-        "usage": "Text"
-      }
-    ],
+    "textColors": [],
     "quote": "Nature always wears the colors of the spirit."
   },
   {
@@ -83628,29 +83652,17 @@ export const realSites: WebsiteData[] = [
     "likes": 42,
     "topColors": [
       {
-        "hex": "#0052CC",
-        "name": "Custom",
-        "percentage": 67,
-        "usage": "Primary"
-      },
-      {
         "hex": "#E8E8E8",
         "name": "Custom",
-        "percentage": 33,
+        "percentage": 100,
         "usage": "Primary"
       }
     ],
     "allColors": [
       {
-        "hex": "#0052CC",
-        "name": "Custom",
-        "percentage": 67,
-        "usage": "General"
-      },
-      {
         "hex": "#E8E8E8",
         "name": "Custom",
-        "percentage": 33,
+        "percentage": 100,
         "usage": "General"
       }
     ],
@@ -83674,8 +83686,62 @@ export const realSites: WebsiteData[] = [
         "usage": "Trending"
       }
     ],
-    "lastUpdated": "2026-06-26T04:36:20.213Z",
+    "lastUpdated": "2026-06-27T04:22:28.470Z",
     "versions": [
+      {
+        "version": "v4.0",
+        "date": "2026-06-26T04:36:20.213Z",
+        "colors": [
+          {
+            "hex": "#0052CC",
+            "name": "Custom",
+            "percentage": 67,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#E8E8E8",
+            "name": "Custom",
+            "percentage": 33,
+            "usage": "Primary"
+          }
+        ],
+        "topColors": [
+          {
+            "hex": "#0052CC",
+            "name": "Custom",
+            "percentage": 67,
+            "usage": "Primary"
+          },
+          {
+            "hex": "#E8E8E8",
+            "name": "Custom",
+            "percentage": 33,
+            "usage": "Primary"
+          }
+        ],
+        "textColors": [
+          {
+            "hex": "#0052CC",
+            "name": "Custom",
+            "percentage": 33,
+            "usage": "Text"
+          }
+        ],
+        "allColors": [
+          {
+            "hex": "#0052CC",
+            "name": "Custom",
+            "percentage": 67,
+            "usage": "General"
+          },
+          {
+            "hex": "#E8E8E8",
+            "name": "Custom",
+            "percentage": 33,
+            "usage": "General"
+          }
+        ]
+      },
       {
         "version": "v4.0",
         "date": "2026-05-31T04:53:58.447Z",
@@ -83758,45 +83824,9 @@ export const realSites: WebsiteData[] = [
             "usage": "General"
           }
         ]
-      },
-      {
-        "version": "v2.0",
-        "date": "2026-02-16T15:16:47.896Z",
-        "colors": [
-          {
-            "hex": "#E8E8E8",
-            "name": "Custom",
-            "percentage": 100,
-            "usage": "Primary"
-          }
-        ],
-        "topColors": [
-          {
-            "hex": "#E8E8E8",
-            "name": "Custom",
-            "percentage": 100,
-            "usage": "Primary"
-          }
-        ],
-        "textColors": [],
-        "allColors": [
-          {
-            "hex": "#E8E8E8",
-            "name": "Custom",
-            "percentage": 100,
-            "usage": "General"
-          }
-        ]
       }
     ],
-    "textColors": [
-      {
-        "hex": "#0052CC",
-        "name": "Custom",
-        "percentage": 33,
-        "usage": "Text"
-      }
-    ]
+    "textColors": []
   },
   {
     "id": "michelin",
