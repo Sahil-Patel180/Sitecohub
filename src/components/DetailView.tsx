@@ -1,32 +1,34 @@
 import { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import type { WebsiteData, Color } from '../data/mockData';
-import { realSites } from '../data/realSites';
 import { getGlobalTrendingColors } from '../utils/analytics';
 import { X, ExternalLink, Calendar, History, TrendingUp, Clock, Copy, Check } from 'lucide-react';
 import { format, isSameDay } from 'date-fns';
 
 interface DetailViewProps {
     site: WebsiteData;
+    allSites: WebsiteData[];
     onClose: () => void;
 }
 
-// Calculate global trends once outside the component to avoid expensive re-calcs
-// This assumes realSites doesn't change during the session, which is true for the static file.
 const GLOBAL_TREND_LIMIT = 50;
-let globalTrendingStats: { hex: string }[] = [];
-try {
-    if (realSites && Array.isArray(realSites)) {
-        globalTrendingStats = getGlobalTrendingColors(realSites, GLOBAL_TREND_LIMIT);
-    }
-} catch (e) {
-    console.error("Failed to calculate global trends", e);
-}
-const globalTrendingHexSet = new Set(globalTrendingStats.map(s => s.hex));
 
-export default function DetailView({ site, onClose }: DetailViewProps) {
+export default function DetailView({ site, allSites, onClose }: DetailViewProps) {
     const [showAllColors, setShowAllColors] = useState(false);
     const [activeVersionId, setActiveVersionId] = useState<string | null>(null);
+
+    // Calculated from whatever site list is currently loaded (Supabase-backed).
+    const globalTrendingHexSet = useMemo(() => {
+        try {
+            if (allSites && Array.isArray(allSites) && allSites.length > 0) {
+                const stats = getGlobalTrendingColors(allSites, GLOBAL_TREND_LIMIT);
+                return new Set(stats.map(s => s.hex));
+            }
+        } catch (e) {
+            console.error('Failed to calculate global trends', e);
+        }
+        return new Set<string>();
+    }, [allSites]);
 
     // Determines which dataset to show (Current or History)
     const activeData = useMemo(() => {

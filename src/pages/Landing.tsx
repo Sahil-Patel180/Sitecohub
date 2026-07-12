@@ -2,9 +2,19 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Layers, Zap, TrendingUp } from 'lucide-react';
 import { Marquee } from '../components/Marquee';
-import { realSites } from '../data/realSites';
+import { useState, useEffect } from 'react';
+import type { WebsiteData } from '../data/mockData';
+import { fetchAllSites } from '../data/fetchSites';
 
 export default function Landing() {
+    const [realSites, setRealSites] = useState<WebsiteData[]>([]);
+
+    useEffect(() => {
+        fetchAllSites()
+            .then(setRealSites)
+            .catch((err) => console.error('Failed to fetch sites:', err));
+    }, []);
+
     return (
         <div className="relative overflow-hidden">
             {/* Abstract Background */}

@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import { websites } from '../data/mockData';
+import type { WebsiteData } from '../data/mockData';
+import { fetchAllSites } from '../data/fetchSites';
 import { PieChart, Pie, Cell, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Legend } from 'recharts';
 import { useNavigate } from 'react-router-dom';
 import { getNearestColorFamily } from '../utils/colorUtils';
@@ -19,6 +20,25 @@ export default function Analytics() {
         window.addEventListener('resize', checkMobile);
         return () => window.removeEventListener('resize', checkMobile);
     }, []);
+
+    // Data fetched from Supabase
+    const [websites, setWebsites] = useState<WebsiteData[]>([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        fetchAllSites()
+            .then(setWebsites)
+            .catch((err) => console.error('Failed to fetch sites:', err))
+            .finally(() => setLoading(false));
+    }, []);
+
+    if (loading) {
+        return (
+            <div className="pt-8 md:pt-20 px-4 md:px-6 max-w-7xl mx-auto pb-12 md:pb-20 text-center text-[#666]">
+                Loading analytics…
+            </div>
+        );
+    }
 
     // 1. Calculate Dominant Colors Aggregate
     const colorCounts: Record<string, number> = {};

@@ -1,14 +1,24 @@
 import { useState, useMemo, useEffect, useRef } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useSearchParams } from 'react-router-dom';
-import { websites } from '../data/mockData';
 import type { WebsiteData } from '../data/mockData';
+import { fetchAllSites } from '../data/fetchSites';
 import SiteCard from '../components/SiteCard';
 import DetailView from '../components/DetailView';
 import SearchableSelect from '../components/SearchableSelect';
 import { Search, SlidersHorizontal, ArrowUpDown, X, Filter, Heart, Palette } from 'lucide-react';
 
 export default function Showcase() {
+    const [websites, setWebsites] = useState<WebsiteData[]>([]);
+    const [loadingSites, setLoadingSites] = useState(true);
+
+    useEffect(() => {
+        fetchAllSites()
+            .then(setWebsites)
+            .catch((err) => console.error('Failed to fetch sites:', err))
+            .finally(() => setLoadingSites(false));
+    }, []);
+
     const [selectedSite, setSelectedSite] = useState<WebsiteData | null>(null);
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
@@ -30,7 +40,7 @@ export default function Showcase() {
                 setSelectedSite(site);
             }
         }
-    }, [searchParams]);
+    }, [searchParams, websites]);
 
     // Debounce search update
     useEffect(() => {
@@ -378,6 +388,7 @@ export default function Showcase() {
                 {selectedSite && (
                     <DetailView
                         site={selectedSite}
+                        allSites={websites}
                         onClose={() => {
                             setSelectedSite(null);
                             const newParams = new URLSearchParams(searchParams);
