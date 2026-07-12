@@ -11,6 +11,7 @@
     "update-palettes": "node scripts/update_palettes.js"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.110.2",
     "axios": "^1.13.3",
     "cheerio": "^1.2.0",
     "date-fns": "^4.1.0",
