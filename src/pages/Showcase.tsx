@@ -166,7 +166,7 @@ export default function Showcase() {
         });
 
         return result;
-    }, [searchQuery, selectedCategory, selectedStyle, selectedColorFamily, sortBy, showLikedOnly, likedSiteIds]); // likedSiteIds dependency ensures refresh
+    }, [websites, searchQuery, selectedCategory, selectedStyle, selectedColorFamily, sortBy, showLikedOnly, likedSiteIds]); // likedSiteIds dependency ensures refresh
 
     const activeFilterCount = (selectedCategory ? 1 : 0) + (selectedStyle ? 1 : 0) + (selectedColorFamily ? 1 : 0) + (showLikedOnly ? 1 : 0);
 
