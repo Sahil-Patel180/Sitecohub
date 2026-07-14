@@ -6,6 +6,7 @@ import Loader from './components/Loader';
 const Landing = lazy(() => import('./pages/Landing'));
 const Showcase = lazy(() => import('./pages/Showcase'));
 const Analytics = lazy(() => import('./pages/Analytics'));
+const SiteDetail = lazy(() => import('./pages/SiteDetail'));
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route index element={<Landing />} />
             <Route path="showcase" element={<Showcase />} />
             <Route path="analytics" element={<Analytics />} />
+            <Route path="site/:slug" element={<SiteDetail />} />
           </Route>
         </Routes>
       </Suspense>

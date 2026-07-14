@@ -20,6 +20,7 @@ export interface WebsiteData {
   url: string;
   description: string;
   logo?: string;
+  slug?: string;
   category: string;
   style: 'Minimalist' | 'Dark Mode' | 'Colorful' | 'Gradient' | 'Clean';
   primaryColorFamily: string;

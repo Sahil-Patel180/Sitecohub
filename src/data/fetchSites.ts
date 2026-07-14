@@ -42,6 +42,7 @@ export async function fetchAllSites(): Promise<WebsiteData[]> {
       url: s.url,
       description: s.description ?? '',
       logo: s.logo ?? undefined,
+      slug: s.slug ?? undefined,
       category: s.category ?? '',
       style: (s.style ?? 'Minimalist') as WebsiteData['style'],
       primaryColorFamily: s.primary_color_family ?? '',
